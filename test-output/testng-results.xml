@@ -1,0 +1,2440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="73" passed="0" failed="73" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-18T18:57:33 EDT" name="Default suite" finished-at="2023-08-18T19:02:22 EDT" duration-ms="288527">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-08-18T18:57:33 EDT" name="Default test" finished-at="2023-08-18T19:02:22 EDT" duration-ms="288527">
+      <class name="runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:33 EDT" name="setUpClass" finished-at="2023-08-18T18:57:34 EDT" duration-ms="1136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@69117714]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:57:40 EDT" duration-ms="5552" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User enters arrays Page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:24)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:57:44 EDT" duration-ms="3705" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:57:47 EDT" duration-ms="3667" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:57:51 EDT" duration-ms="3985" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:57:55 EDT" duration-ms="3496" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:57:59 EDT" duration-ms="3905" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:57:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:03 EDT" duration-ms="3973" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:07 EDT" duration-ms="3954" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:07 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:11 EDT" duration-ms="3923" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor link with valid code  in each page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:11 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:15 EDT" duration-ms="4134" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:15 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:18 EDT" duration-ms="3554" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:23 EDT" duration-ms="4366" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:23 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:27 EDT" duration-ms="3841" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:27 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:30 EDT" duration-ms="3758" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:30 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:34 EDT" duration-ms="4182" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:34 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:38 EDT" duration-ms="3840" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:38 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:42 EDT" duration-ms="3611" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:42 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:46 EDT" duration-ms="3927" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:46 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:50 EDT" duration-ms="4127" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:50 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:54 EDT" duration-ms="4155" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:58:58 EDT" duration-ms="3483" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:58:58 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:02 EDT" duration-ms="3958" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:02 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:05 EDT" duration-ms="3507" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:05 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:09 EDT" duration-ms="3612" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:09 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:13 EDT" duration-ms="4148" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with valid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:16 EDT" duration-ms="3545" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:16 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:20 EDT" duration-ms="4001" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:24 EDT" duration-ms="3788" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:28 EDT" duration-ms="4195" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:28 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:32 EDT" duration-ms="3941" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:36 EDT" duration-ms="3640" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:40 EDT" duration-ms="3521" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:44 EDT" duration-ms="4114" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:47 EDT" duration-ms="3819" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:51 EDT" duration-ms="3843" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:55 EDT" duration-ms="3646" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T18:59:59 EDT" duration-ms="3959" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T18:59:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:03 EDT" duration-ms="3656" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:06 EDT" duration-ms="3547" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:10 EDT" duration-ms="3468" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:13 EDT" duration-ms="3348" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["TryEditor in each links with invalid code"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:13 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:17 EDT" duration-ms="3873" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:17 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:20 EDT" duration-ms="3587" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:20 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:24 EDT" duration-ms="3902" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:24 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:29 EDT" duration-ms="4274" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:33 EDT" duration-ms="3910" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:33 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:36 EDT" duration-ms="3592" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:40 EDT" duration-ms="3610" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:43 EDT" duration-ms="3658" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:43 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:47 EDT" duration-ms="4008" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:51 EDT" duration-ms="4046" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:55 EDT" duration-ms="3951" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:55 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:00:59 EDT" duration-ms="3746" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:00:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:03 EDT" duration-ms="3559" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:03 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:06 EDT" duration-ms="3535" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:10 EDT" duration-ms="3638" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:10 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:14 EDT" duration-ms="3953" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:14 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:18 EDT" duration-ms="3607" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:18 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:21 EDT" duration-ms="3556" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:21 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:25 EDT" duration-ms="3855" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:25 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:29 EDT" duration-ms="3875" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:29 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:32 EDT" duration-ms="3529" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:32 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:36 EDT" duration-ms="3679" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:36 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:40 EDT" duration-ms="4024" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:40 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:44 EDT" duration-ms="3494" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:44 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:47 EDT" duration-ms="3567" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:47 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:51 EDT" duration-ms="3776" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:51 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:54 EDT" duration-ms="3524" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:54 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:01:59 EDT" duration-ms="4073" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:01:59 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:02:02 EDT" duration-ms="3889" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:02:02 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:02:06 EDT" duration-ms="3759" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:02:06 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:02:11 EDT" duration-ms="4574" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:02:11 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-18T19:02:14 EDT" duration-ms="3712" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["practice link verification"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Array verification"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.TestRunner@50f6ac94]" started-at="2023-08-18T19:02:14 EDT" name="tearDownClass" finished-at="2023-08-18T19:02:22 EDT" duration-ms="7241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,1832 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/73/0</td>
+</tr><tr>
+<td>Started on:</td><td>Fri Aug 18 18:57:33 EDT 2023</td>
+</tr>
+<tr><td>Total time:</td><td>288 seconds (288527 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1868854372", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1868854372'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1452064653", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1452064653'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1016993439", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1016993439'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace418827508", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace418827508'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2135188294", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2135188294'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1585568133", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1585568133'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace159702529", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace159702529'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1176795299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1176795299'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1384116598", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1384116598'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1749018549", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1749018549'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace892453434", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace892453434'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1340340719", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1340340719'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2120120147", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2120120147'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2080301043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2080301043'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User enters arrays Page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:24)
+</pre></div><a href='#' onClick='toggleBox("stack-trace929066990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace929066990'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:24)
+</pre></div></td>
+<td>5</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace422650431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace422650431'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1291416556", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1291416556'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace508317658", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace508317658'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1694924176", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1694924176'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace682101936", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace682101936'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace696902032", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace696902032'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace858107836", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace858107836'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1613378103", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1613378103'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace119525506", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace119525506'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace797724590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace797724590'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1089324622", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1089324622'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace174268870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace174268870'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1569179823", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1569179823'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1747367695", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1747367695'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace720486234", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace720486234'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1220780271", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1220780271'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1836985427", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1836985427'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1432951385", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1432951385'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1512546454", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1512546454'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1524770385", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1524770385'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1198045532", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1198045532'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace325918040", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace325918040'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1774533490", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1774533490'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2092143369", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2092143369'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace400048100", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace400048100'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace450728160", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace450728160'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1809367960", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1809367960'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace667504652", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace667504652'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace408753435", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace408753435'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace507017588", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace507017588'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace478851399", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace478851399'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace96865288", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace96865288'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace767866250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace767866250'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1825485441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1825485441'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2063802195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2063802195'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1324552737", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1324552737'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace715043917", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace715043917'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace391527298", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace391527298'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace957817027", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace957817027'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>4</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace128403058", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace128403058'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1735434793", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1735434793'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace143791945", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace143791945'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1950682267", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1950682267'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1112459664", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1112459664'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace416877830", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace416877830'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace103299785", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace103299785'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1655257549", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1655257549'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace582495711", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace582495711'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:31)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace569429143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace569429143'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with invalid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div><a href='#' onClick='toggleBox("stack-trace156203431", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace156203431'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:99)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor link with valid code  in each page", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace546271589", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace546271589'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_navigated_to_arrays_page(arraysd.java:39)
+	at ✽.User should navigated to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:50)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace716910678", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace716910678'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1186254299", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1186254299'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1856866525", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1856866525'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1568783481", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1568783481'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_array_page(arraysd.java:227)
+	at ✽.User should be directed to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:130)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "TryEditor in each links with valid code", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1824222273", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1824222273'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_directed_to_arrays_page(arraysd.java:139)
+	at ✽.User should be directed to arrays page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:68)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1967522621", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1967522621'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+<tr>
+<td title='runner.TestRunner.runScenario()'><b>runScenario</b><br>Test class: runner.TestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "practice link verification", "Array verification"</td>
+<td><div><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div><a href='#' onClick='toggleBox("stack-trace206331953", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace206331953'><pre>java.lang.AssertionError: expected [https://dsportalapp.herokuapp.com/array/] but found [https://dsportalapp.herokuapp.com/home]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at defenitions.arraysd.user_should_be_navigated_to_array_page(arraysd.java:284)
+	at ✽.User should be navigated to array page(file:///C:/Manju/SDET/ds-algoproject/src/test/resources/features/Arrays.feature:162)
+</pre></div></td>
+<td>3</td>
+<td>runner.TestRunner@50f6ac94</td></tr>
+</table><p>
+</body>
+</html>
